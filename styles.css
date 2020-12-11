@@ -1,0 +1,75 @@
+body{
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    font-family: Roboto;
+}
+.container{
+    background-color: white;
+    margin: 100px auto;
+    width: 30%;
+    cursor: grab;
+    vertical-align: middle;
+}
+.progress{
+    padding: 10px 0 15px 0;
+    text-align: center;
+}
+.dot{
+    display: inline-block;
+    margin: 0 2px 0 2px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+.dot:first-child{
+    background-color: rgb(146, 146, 146);
+}
+#text{
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 1.4px;
+    font-size: 20px;
+    padding:10px 30px 30px;
+}
+#visa{
+    color: grey;
+}
+#master{
+    font-weight: 800;
+    
+}
+
+#maestro{
+    color: grey;
+}
+.tick{
+    width: 25px;
+    margin-right: 5px;
+}
+div img{
+    width: 50px;
+    /* padding-left: 30px;
+    padding-right: 20px; */
+    padding-right: 20px;
+}
+.methods{
+    border-top: 1px solid gray;
+    padding: 15px ;
+    
+}
+.methods:hover{
+    background-color: rgba(199, 195, 195, 0.5);
+}
+.next{
+    background-color: rgba(0, 0, 250, 0.7);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.next:hover{
+    background-color: rgba(0, 0, 255, 0.5);
+}
+.next img{
+    width: 15px;
+}
